@@ -15,8 +15,8 @@ header {
     background-color: #2a607c;
     color: #ffffff;
     width: 100%;
-   /* position: fixed;
-    z-index: 2;*/
+    position: fixed;
+    z-index: 2;
 }
 
 header span {
@@ -52,8 +52,23 @@ a {
 
 
 p {
-    font-size: 16px;
+    font-size: 1rem;
 }
+
+
+footer {
+    padding: 30px;
+    clear: both;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+
+}
+
+.footer_logo {
+    font-size: 1.25rem;
+}
+
+
 
 .slider {
     height: 800px;
@@ -86,102 +101,77 @@ h1 {
     margin-left: 25px;
 }
 
-.content {
-    width: 75%;
-    /*height: 100%;*/
-    display: inline-block;
-    margin-left: 20px;
+.main_container {
+    display: flex;
+    width: 100%;
+    margin: 0 auto;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: #d9dcd6;
 }
 
-.horiseon_services {
-    margin-bottom: 20px;
+.main_item_services {
+    width: 75%;
+    border-top: 0px;
+    border-bottom: 0px;
+    margin-left: 0px;
+    background-color: #d9dcd6;
+    border-left: solid 20px #d9dcd6;
+    border-right: solid 10px #d9dcd6;
+}
+
+.main_item_benefits {
+    border-top: 0px;
+    border-bottom: 0px;
+    border-left: solid 10px #d9dcd6;;
+    border-right: solid 20px #d9dcd6;;
+    width: 25%;
+    margin-right: 0px;
+    padding: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #2589bd;
+
+}
+
+.section_container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.section_item_services {
+    margin-bottom: 35px;
     padding: 50px;
     height: 300px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     background-color: #0072bb;
     color: #ffffff;
-}
+} 
 
-
-.horiseon_services img {
+.section_item_services img {
     max-height: 200px;
 }
 
-
-.horiseon_services h2 {
+.section_item_services h2 {
     margin-bottom: 20px;
-    font-size: 36px;
+    font-size: 2.25rem;
 } 
 
-
-.benefits {
-    margin-right: 20px;
-    padding: 20px;
-    clear: both;
-    float: right;
-    width: 20%;
-    /*height: 100%;*/
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #2589bd;
-}
-
-.benefit-lead {
-    margin-bottom: 32px;
+.section_item_benefits {
+    margin-bottom: 2rem;
     color: #ffffff;
-}
+    font-size: 0.8rem;
+    text-align: center;
+    }
 
-.benefit-brand {
-    margin-bottom: 32px;
-    color: #ffffff;
-}
-
-.benefit-cost {
-    margin-bottom: 32px;
-    color: #ffffff;
-}
-
-.benefit-lead h3 {
-    margin-bottom: 10px;
+.section_item_benefits h3 {
+    margin-bottom: 0px;
     text-align: center;
 }
 
-.benefit-brand h3 {
-    margin-bottom: 10px;
-    text-align: center;
-}
-
-.benefit-cost h3 {
-    margin-bottom: 10px;
-    text-align: center;
-}
-
-.benefit-lead img {
+.section_item_benefits img {
     display: block;
     margin: 10px auto;
     max-width: 150px;
 }
 
-.benefit-brand img {
-    display: block;
-    margin: 10px auto;
-    max-width: 150px;
-}
-
-.benefit-cost img {
-    display: block;
-    margin: 10px auto;
-    max-width: 150px;
-}
-
-
-
-footer {
-    padding: 30px;
-    clear: both;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    text-align: center;
-}
-
-footer h2 {
-    font-size: 20px;
-}
