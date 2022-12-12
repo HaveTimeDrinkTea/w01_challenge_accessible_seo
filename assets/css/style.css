@@ -78,9 +78,15 @@ p {
 form {
     /* Center the form on the page */
     margin: 0 auto;
-    padding: 10px;
+    padding: 5px;
     border: 0;
-    
+  }
+
+  label {
+    font-size: 1.8rem;
+    color: #fff;
+    text-shadow: 1px 1px  rgb(43, 54, 125);
+    display: none;
   }
   
   input {
@@ -157,7 +163,9 @@ address {
 .slider_center_left {
     position: absolute;
     top: 50%;
-    left: 5%;
+    left: 0%;
+    padding: 20px;
+    background-color: rgb(0, 114, 187, 70%);
   }
 
  .slider_slogan {
