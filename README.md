@@ -118,8 +118,13 @@ MIT License
 
 The new webpage has been assessed against 
 
+* Download speed 
+	* tested by [test engine Pingdom.com](https://tools.pingdom.com/#6141af4982400000) 
+	* Overall grade B. 
+	* Total page size 600kb with a latency of 325ms.
+	
 * Accessibility
-* Download speed
+	* tested by [test engine]() 
 
 ---
 
