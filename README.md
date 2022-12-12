@@ -124,7 +124,11 @@ The new webpage has been assessed against
 	* Total page size 600kb with a latency of 325ms.
 	
 * Accessibility
-	* tested by [test engine]() 
+	* tested by [test engine Wave.webaim.org](https://wave.webaim.org) 
+	* identified a few issues such as colour contrast between the white font and the blue background and the three images in the benefits section. To check with client regarding choice of colour or change the images for better contrast.
+	* Tool tips for the header navigation is not descriptive enough. Changes have been made.
+	* Form email input does not have a label and the form submit button colour contrast is not good.  Both have been corrected.
+	* Text content on top of the top slider image has contrast issue. 
 
 ---
 
