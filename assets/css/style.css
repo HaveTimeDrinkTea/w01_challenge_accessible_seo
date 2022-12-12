@@ -49,15 +49,6 @@ li {
     display: inline-block;
 }
 
-a {
-    color: #ffffff;
-    text-decoration: none;
-}
-
-p {
-    font-size: 1rem;
-}
-
 h1 {
     font-size: 3.2rem;
     color: #ffffff;
@@ -73,6 +64,15 @@ h3 {
     margin-bottom: 0px;
     font-size: 1.1rem;
     text-align: center;
+}
+
+a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+p {
+    font-size: 1rem;
 }
 
 form {
