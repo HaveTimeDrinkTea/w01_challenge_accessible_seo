@@ -1,9 +1,13 @@
 # w01_challenge_accessible_seo
 
+
 ## Description
+
 This project is part of the Frontend Dev Bootcamp course challenge for week 1. It simulates a on-the-job ticket where a starter code is provided and my role as a developer is to make changes, correct errors or otherwise improve on the code to satisfy client's requirements. 
 
-Through this project, I have an opportunity to demonstrate my understanding of HTML/CSS, the git workflow, github, terminal commands, VSCode and debuging using browser developer mode. I have also had a chance to read up and get a brief understanding of web accessiblity and SEO.
+Through this project, I have an opportunity to demonstrate my understanding of HTML/CSS, the git workflow, github, terminal commands, VSCode, editing a markdown document and debuging using browser developer mode. 
+
+I have also read up and get a (very) brief understanding of web accessiblity and SEO.
 
 The main user story for this project is to refactor an exisiting site to make it more accessible and optimised for search engines.
 
@@ -17,7 +21,7 @@ The main user story for this project is to refactor an exisiting site to make it
 
 ### Further Issues Requiring Attention
 
-* It is recommended that the webpage should be made to be responsive as the next step. 
+* It is recommended that the webpage should be made to be responsive as the next step. E.g. The header and slider area will not work if a user reduces the browser window. (I am looking forward to learning more about responsive design later in the course!)
 * Will need to connect the request a demo form to a CRM application like mailchimp to collect leads.
 * Will need to update all social media account icons with the correct URL.
 * Will need to relink the main nav in header to the relevant pages for this website.
@@ -28,7 +32,6 @@ The main user story for this project is to refactor an exisiting site to make it
 AS A marketing agency
 I WANT a codebase that follows accessibility standards
 SO THAT our own site is optimized for search engines
-
 
 [Deployment link](https://havetimedrinktea.github.io/w01_challenge_accessible_seo/)
 
@@ -54,6 +57,7 @@ The website must meet accessibility standards by having the following:
 * [Features](#features)
 * [Testing](#testing)
 
+
 ## Installation
 
 N.A.
@@ -69,13 +73,13 @@ A screen shot of the mock up and of the submitted webpage:
 
 ### Webpage submitted for review:
 
-![alt text](assets/images/finalweb.png)
+![alt text](assets/images/01-html-css-git-challenge-final.png)
 
 
 
 ## Credits
 
-Link to Font Awesome v4.7. [Link to Font Awesome](https://fontawesome.com)
+Used Font Awesome v4.7. [Link to Font Awesome](https://fontawesome.com)
 
 
 ## License
@@ -85,7 +89,6 @@ MIT License
 
 
 ## Features
-
 
 * Semantic HTML
 	* divided the body into header, main and footer.
@@ -99,7 +102,7 @@ MIT License
 	* all img elements have alt and title attributes
 	* all img elements are accompanied by figcaption where necessary
 	* added address tag in footer for contact information.
-	* added aria-hidden= true for purely decorative elements
+	* added aria-hidden= true for purely decorative elements.
 	
 * SEO
 	* Added title
