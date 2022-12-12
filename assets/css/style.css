@@ -22,8 +22,8 @@ header {
     background-color: #2a607c;
     color: #ffffff;
     width: 100%;
-    position: fixed;
-    z-index: 2;
+    /*position: fixed;
+    z-index: 2;*/
 }
 
 span {
@@ -88,19 +88,21 @@ form {
     
   input {
     text-align: center;
-    width: 200px;
+    width: 250px;
     height: 40px;
     border: 1px solid #fff;
     font-size: 1rem;
+    box-shadow: 2px 2px #2a607c;
   }
 
     
   button {
-    padding: 5px;
+    padding: 10px;
     margin: 20px;
     font-size: 1rem;
-    background-color: #2a607c;
+    background-color: #2589bd;
     color: #fff;
+    box-shadow: 1px 1px #696969;
   }
 
   footer {
