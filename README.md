@@ -25,6 +25,7 @@ The main user story for this project is to refactor an exisiting site to make it
 * Will need to connect the request a demo form to a CRM application like mailchimp to collect leads.
 * Will need to update all social media account icons with the correct URL.
 * Will need to relink the main nav in header to the relevant pages for this website.
+* Implement cookie consent and check compliance with GDPR.
 
 
 ## User Story
