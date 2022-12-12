@@ -15,9 +15,12 @@ The main user story for this project is to refactor an exisiting site to make it
 * Make the changes and follow a git workflow as if I am working in a team of developers.
 
 
-### Further Works
+### Further Issues Requiring Attention
 
-It is recommended that the webpage should be made to be responsive as the next step. 
+* It is recommended that the webpage should be made to be responsive as the next step. 
+* Will need to connect the request a demo form to a CRM application like mailchimp to collect leads.
+* Will need to update all social media account icons with the correct URL.
+* Will need to relink the main nav in header to the relevant pages for this website.
 
 
 ## User Story
